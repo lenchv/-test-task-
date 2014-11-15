@@ -1,0 +1,49 @@
+table {
+	border-collapse: collapse;
+
+}
+
+td {
+	border:solid 1px black;
+}
+
+.uncheck{
+	background-color: #FFAAAA;
+	 
+}
+
+.uncheck:hover{
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+.check{
+	background-color: #AAEEBB;
+}
+
+.check:hover{
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+.cell-item {
+	border-right: 1px black solid;
+	border-bottom: 1px black solid;
+	float: left;
+	height: 50px;
+	width: 94px;
+	text-align: center;
+}
+
+.last-cell {
+	clear: right;
+}
+
+.cell-name {
+	overflow: hidden;
+}
+
+.cell-short {
+	vertical-align: middle;
+	width: 63px;
+}

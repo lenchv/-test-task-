@@ -1,0 +1,174 @@
+.basket {
+
+}
+
+.basket-item {
+	display:none;
+	position: fixed;
+	border: solid 1px #DD23E3;
+	background-color: white;
+	width: 600px;
+	height: 300px;
+	bottom: 0px;
+	right:0px;
+}
+
+.basket > table{
+	border-top: solid 1px #EEEEEE;
+}
+
+.basket > h2 {
+	margin-left: 20px;
+	font-family: Arial, sans-serif;
+	font-weight: normal;
+}
+
+.items-count {
+	width: 51px;
+	height: 32px;
+	border: solid 1px #CCCCCC;
+	border-radius: 5px;
+}
+
+.items-count > .quantity-items {
+	margin-top: 2px;
+	width: 30px;
+	float: left;
+	font-size: 16pt;
+	border-style: none;
+	text-align: center;
+}
+
+.items-count > .item-inc {
+	margin:0;
+	width: 20px;
+	height: 15px;
+	text-align: center;
+	font-size: 10pt;
+	float: left;
+	clear:right;
+	border-left: solid 1px #CCCCCC;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+.items-count > .item-inc:hover { 
+	background: yellow;
+	cursor: pointer;
+}
+
+.items-count > .item-dec {
+	margin:0;
+	width: 20px;
+	height: 15px;
+	font-size: 10pt;
+	text-align: center;
+	float: left;
+	border-left: solid 1px #CCCCCC;
+	border-top: solid 1px #CCCCCC;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+.items-count > .item-dec:hover { 
+	background: yellow;
+	cursor: pointer;
+}
+
+.items-count > input[type="text"]:focus { 
+	outline: none; 
+}
+
+.delete-item {
+	border: 1px solid black; 
+	border-radius: 20px;
+	margin-left: 20px;
+}
+
+.delete-item:hover {
+	border-color:  #EEAA00;
+	color: #EEAA00;
+	cursor: pointer;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+.basket-item > .item-total {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	background-color: yellow;
+}
+
+.info-item {
+	display: block;
+	margin: 0;
+	font-size: 16pt;
+	padding-top: 14px;
+	padding-left: 50px;
+	color: green;
+	float: left;
+}
+
+#form-button {
+	margin-left: 10px;  
+	margin-top: 14px;
+	float:left;
+}
+
+.scroll-basket {
+	overflow-y: scroll;
+	height: 199px;
+}
+
+.basket > .item-total {
+	width: 100%;
+	height: 50px;
+	clear: both;
+}
+
+#payment {
+	float: left;
+	margin-left: 50px;
+	margin-right: 50px;
+
+	border: 1px solid #CCCCEE;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+#delivery {
+	border: 1px solid #CCCCEE;
+	border-radius: 10px;
+	padding: 10px;
+	float: left;
+}
+
+#about-user > input[type='text'] {
+	display: block;
+	margin-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-style: solid;
+	border-color: #CCCCEE;
+	border-radius: 10px;
+	clear: both;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+#about-user > input[type='text'] {
+	outline: none;
+}
+
+.basket-warning {
+	color: red;
+	font-family: Helvetica sans-serif;
+	font-style: italic;
+	font-size: 10pt;
+}
